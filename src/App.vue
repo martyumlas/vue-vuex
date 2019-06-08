@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <div class="container">
+      <AddTodo/>
       <Todos></Todos>
     </div>
   </div>
@@ -8,10 +9,11 @@
 
 <script>
 import Todos from './components/Todos'
+import AddTodo from './components/AddTodo'
 export default {
   name: "app",
   components: {
-    Todos
+    Todos, AddTodo
   }
 };
 </script>
